@@ -8,7 +8,32 @@
 
 <title>TOSS EXPERT</title>
 
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '1080158641057796');
+fbq('track', 'PageView');
+</script>
+
+<noscript>
+<img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1080158641057796&ev=PageView&noscript=1"/>
+</noscript>
+<!-- End Meta Pixel Code -->
+
+
+<!-- Poppins Font -->
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+
 
 <style>
 
@@ -46,9 +71,9 @@ body{
     background-position:center;
     background-attachment:fixed;
 
-    /* Allow Chrome Android pull-to-refresh */
     overscroll-behavior-y:auto;
 }
+
 
 /* Background Glow */
 
@@ -72,6 +97,7 @@ body::before{
     pointer-events:none;
 }
 
+
 body::after{
     content:"";
 
@@ -92,10 +118,12 @@ body::after{
     pointer-events:none;
 }
 
+
 /* Main Card */
 
 .card{
     width:calc(100% - 34px);
+
     max-width:620px;
 
     min-height:700px;
@@ -105,8 +133,11 @@ body::after{
     padding:55px 40px 40px;
 
     display:flex;
+
     flex-direction:column;
+
     align-items:center;
+
     justify-content:center;
 
     text-align:center;
@@ -122,16 +153,20 @@ body::after{
         inset 0 0 50px rgba(70,100,255,.04);
 
     backdrop-filter:blur(15px);
+
     -webkit-backdrop-filter:blur(15px);
 
     position:relative;
+
     z-index:2;
 }
+
 
 /* Logo */
 
 .logo{
     width:160px;
+
     height:160px;
 
     border-radius:50%;
@@ -139,7 +174,9 @@ body::after{
     padding:5px;
 
     display:flex;
+
     align-items:center;
+
     justify-content:center;
 
     background:
@@ -158,8 +195,10 @@ body::after{
     flex-shrink:0;
 }
 
+
 .logo img{
     width:100%;
+
     height:100%;
 
     object-fit:cover;
@@ -170,6 +209,7 @@ body::after{
 
     display:block;
 }
+
 
 /* Heading */
 
@@ -187,6 +227,7 @@ h1{
     color:#ffffff;
 }
 
+
 /* Description */
 
 .description{
@@ -203,10 +244,12 @@ h1{
     margin-bottom:40px;
 }
 
+
 /* Telegram Button */
 
 .join-btn{
     width:100%;
+
     max-width:500px;
 
     padding:19px 20px;
@@ -239,6 +282,7 @@ h1{
         box-shadow .2s ease;
 }
 
+
 .join-btn:hover{
     transform:translateY(-2px);
 
@@ -246,9 +290,11 @@ h1{
         0 15px 40px rgba(48,110,255,.42);
 }
 
+
 .join-btn:active{
     transform:scale(.98);
 }
+
 
 /* Footer */
 
@@ -262,6 +308,7 @@ h1{
     color:#656a8c;
 }
 
+
 /* Mobile */
 
 @media(max-width:600px){
@@ -271,6 +318,7 @@ h1{
 
         background-attachment:scroll;
     }
+
 
     .card{
         width:calc(100% - 34px);
@@ -284,12 +332,15 @@ h1{
         border-radius:38px;
     }
 
+
     .logo{
         width:150px;
+
         height:150px;
 
         margin-bottom:28px;
     }
+
 
     h1{
         font-size:34px;
@@ -298,6 +349,7 @@ h1{
 
         margin-bottom:19px;
     }
+
 
     .description{
         font-size:15px;
@@ -309,6 +361,7 @@ h1{
         margin-bottom:37px;
     }
 
+
     .join-btn{
         padding:18px 16px;
 
@@ -317,12 +370,15 @@ h1{
         font-weight:800;
     }
 
+
     .footer{
         margin-top:42px;
 
         font-size:13px;
     }
+
 }
+
 
 /* Small Phones */
 
@@ -334,24 +390,30 @@ h1{
         padding:42px 22px 30px;
     }
 
+
     .logo{
         width:135px;
+
         height:135px;
     }
+
 
     h1{
         font-size:31px;
     }
 
+
     .description{
         font-size:14px;
     }
+
 
     .join-btn{
         font-size:14px;
 
         padding:17px 14px;
     }
+
 }
 
 </style>
@@ -361,43 +423,65 @@ h1{
 
 <body>
 
+
 <div class="card">
 
+
     <!-- TOSS EXPERT LOGO -->
+
     <div class="logo">
-        <img src="logo.png" alt="TOSS EXPERT">
+
+        <img
+            src="logo.png"
+            alt="TOSS EXPERT"
+        >
+
     </div>
 
 
     <!-- CHANNEL NAME -->
-    <h1>TOSS EXPERT</h1>
+
+    <h1>
+        TOSS EXPERT
+    </h1>
 
 
     <!-- DESCRIPTION -->
+
     <div class="description">
+
         Get expert cricket insights and match analysis
         from TOSS EXPERT. Join our Telegram community
         for daily cricket updates.
+
     </div>
 
 
     <!-- TELEGRAM BUTTON -->
+
     <a
         href="https://t.me/+e7Rc7iOWbG8wZTll"
         class="join-btn"
         target="_blank"
         rel="noopener noreferrer"
     >
+
         JOIN TELEGRAM NOW
+
     </a>
 
 
     <!-- FOOTER -->
+
     <div class="footer">
+
         © 2026 TOSS EXPERT
+
     </div>
 
+
 </div>
+
 
 </body>
 
